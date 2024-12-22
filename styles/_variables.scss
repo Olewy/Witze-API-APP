@@ -1,0 +1,12 @@
+$primary-font: "Rubik Scribble";
+$secondary-font: "Inter";
+$primary-color: #06da4b;
+$primary-font-color: #fff;
+$bg-color: #333333;
+$bg-color-lighten: #444;
+
+@mixin tablet-and-up() {
+  @media only screen and (min-width: 600px) {
+    @content;
+  }
+}

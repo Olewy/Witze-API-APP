@@ -29,6 +29,8 @@ function saveCurrentJoke() {
     saveJoke(currentJoke);
     renderSavedJokes();
   }
+
+  currentJokeEl.innerText = "-";
 }
 
 function renderSavedJokes() {
